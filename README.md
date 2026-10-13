@@ -8,9 +8,9 @@
 ![Fastai Version](https://img.shields.io/badge/fastai->=2.7-green)
 
 
-<img src="https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow/blob/main/media/predictions.jpg" alt="JPG" width="840" height="924">
+<img src="media/predictions.jpg" alt="U-Net predictions vs. ground truth on BDD100K street scenes" width="840" height="924">
 
-<img src="https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow/blob/main/media/final_segmentation.gif" alt="GIF" width="800" height="620">
+<img src="media/final_segmentation.gif" alt="Semantic segmentation running on a driving video" width="800" height="620">
 
 This project focuses on **semantic segmentation** using the BDD100K dataset, a large-scale, diverse dataset for autonomous driving. The main objective is to accurately segment and identify various objects in street scenes, which is important for improving the perception capabilities of autonomous vehicles. The following classes are included in the segmentation task:
 
@@ -222,7 +222,7 @@ You can also run the project locally by following these steps:
   
    * The parallel coordinate plot below, generated from the W&B sweep, visualizes different runs with varying hyperparameter combinations for architecture, batch size, and learning rate. The resulting **`mean Intersection over union (mIoU)`** for each run is shown on the right.
 
-     <img src="https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow/blob/main/media/sweep-runs.png" alt="PNG" width="1430" height="545">
+     <img src="media/sweep-runs.png" alt="W&B hyperparameter sweep runs" width="1430" height="545">
 
 4. **Final Step: Train the Model with Optimal Hyperparameters**:
 
@@ -257,7 +257,7 @@ You can also run the project locally by following these steps:
 The following visualizations present the evaluation results, including charts, confusion matrices, and other relevant metrics:
 
 <div align="center">
-    <img src="https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow/blob/main/media/W&B_Workspace_panels.gif" alt="GIF" width="700" height="640">
+    <img src="media/W%26B_Workspace_panels.gif" alt="W&B workspace panels during training" width="700" height="640">
 </div>
 
 
